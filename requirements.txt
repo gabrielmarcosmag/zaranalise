@@ -1,0 +1,6 @@
+pandas
+xlrd
+plotly
+setuptools
+tabulate
+reportlab
