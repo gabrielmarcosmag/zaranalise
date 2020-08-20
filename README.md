@@ -159,20 +159,20 @@ A pasta raiz contém três diretórios distintos:
  * **dados**: Diretório onde estão os arquivos `cotas_cdi_dados.xlsx`, `zarathustra.csv` e `cdi.csv`, onde são armazenados os dados utilizados pelo programa.
 
  * **src**: Diretório onde estão armazenados os arquivos Python relativos ao código fonte do programa desenvolvido.
-    - [arquivo.py](./src/arquivo.py): Arquivo onde estão escritas as funções relacionadas a manipulação de arquivos de entrada de dados utilizados no programa;
-    - [data.py](./src/data.py): Arquivo onde estão escritas as funções relacionadas a manipulação de datas
+    - [arquivo.py](./code/src/arquivo.py): Arquivo onde estão escritas as funções relacionadas a manipulação de arquivos de entrada de dados utilizados no programa;
+    - [data.py](./code/src/data.py): Arquivo onde estão escritas as funções relacionadas a manipulação de datas
 utilizados no programa;
-    - [escreve_pdf.py](./src/escreve_pdf.py): Arquivo onde estão escritas as funções relacionadas a escrita em um documento PDF;
-    - [interface.py](./src/interface.py): Arquivo onde estão escritas as funções relacionadas a construção de uma interface gráfica para a aplicação em Python
-    - [principal.py](./src/principal.py): Programa principal que faz a leitura do banco de dados dos aquivos, obtém um banco de dados do período selecionado e imprime os resultados desejados.
-    - [saidas.py](./src/saidas.py): Arquivo onde estão escritas as funções relacionadas a geração de informações de saida para o usuário.
-    - [tratamento.py](./src/tratamento.py): Arquivo onde estão escritas as funções relacionadas a manipulação dos dataframes utilizados no programa
+    - [escreve_pdf.py](./code/src/escreve_pdf.py): Arquivo onde estão escritas as funções relacionadas a escrita em um documento PDF;
+    - [interface.py](./code/src/interface.py): Arquivo onde estão escritas as funções relacionadas a construção de uma interface gráfica para a aplicação em Python
+    - [principal.py](./code/src/principal.py): Programa principal que faz a leitura do banco de dados dos aquivos, obtém um banco de dados do período selecionado e imprime os resultados desejados.
+    - [saidas.py](./code/src/saidas.py): Arquivo onde estão escritas as funções relacionadas a geração de informações de saida para o usuário.
+    - [tratamento.py](./code/src/tratamento.py): Arquivo onde estão escritas as funções relacionadas a manipulação dos dataframes utilizados no programa
 
 
  * **testes**: Diretório onde estão armazenados os arquivos Python relativos aos testes do código fonte.
-    - [testes_arquivo.py](./testes/testes_arquivo.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis pela manipulação de arquivos de entrada de dados que estão escritas no arquivo [arquivo.py](src/arquivo.py)
-    - [testes_data.py](./testes/testes_data.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis pela manipulação de datas que estão escritas no arquivo [data.py](src/data.py)
-    - [testes_escrevepdf.py](./testes/testes_escrevepdf.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis por escrever um arquivo PDF com informações que estão escritas no arquivo [escreve_pdf.py](src/escreve_pdf.py)
-    - [testes_saidas.py](./testes/testes_saidas.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis por saídas de dados para o usuário que estão escritas no arquivo [saidas.py](src/saidas.py)
-    - [testes_tratamento.py](./testes/testes_tratamento.py): Arquivo onde estão escritos os testes para as funções utilizadas no tratamento do dataframe que estão contidas no arquivo [tratamento.py](src/tratamento.py)
+    - [testes_arquivo.py](./code/testes/testes_arquivo.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis pela manipulação de arquivos de entrada de dados que estão escritas no arquivo [arquivo.py](code/src/arquivo.py)
+    - [testes_data.py](./code/testes/testes_data.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis pela manipulação de datas que estão escritas no arquivo [data.py](code/src/data.py)
+    - [testes_escrevepdf.py](./code/testes/testes_escrevepdf.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis por escrever um arquivo PDF com informações que estão escritas no arquivo [escreve_pdf.py](code/src/escreve_pdf.py)
+    - [testes_saidas.py](./code/testes/testes_saidas.py): Arquivo onde estão escritos os testes relacionados as funções responsáveis por saídas de dados para o usuário que estão escritas no arquivo [saidas.py](code/src/saidas.py)
+    - [testes_tratamento.py](./code/testes/testes_tratamento.py): Arquivo onde estão escritos os testes para as funções utilizadas no tratamento do dataframe que estão contidas no arquivo [tratamento.py](code/src/tratamento.py)
 
